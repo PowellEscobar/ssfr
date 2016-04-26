@@ -130,23 +130,26 @@ nav[role=navigation] {
       text-align: center;
       color: rgb(65,93,120);}
 
-    .logo {
-    width
-    }
-    @media screen and (min-width: 600px){
-      img.Family {
+
+    @media screen and (min-width: 600px)
+    {
+        img.Family {
         width: 600px}
-        body-width {600px}
-        svg.logo {
-          width: 30px}
+
+        img.Logo {
+          width: 600px}
+
         }
 
-      }
+
       @media screen and (min-width: 800px){
   img.Family {
     width: 500px;
     float: left;
     margin: 0 0.75em inherit 1.5em;}
+    img.Logo{
+      width:800px}
+    }
 }
 
       footer{
@@ -156,3 +159,46 @@ nav[role=navigation] {
 footer table{
   color: rgb(65,93,120);
   text-align: center;}
+
+  h1 {
+text-align: center;
+}
+
+
+
+
+.hero-image {
+    height: 90vh;
+    background-image: url(http://chipsrestaurants.com/wp-content/uploads/2015/07/family-eating.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image__container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100%;
+}
+
+.hero-image__text {
+    z-index: 100;
+    padding: 1em;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* All this does is add a 50% black background on top of the image */
+.hero-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
