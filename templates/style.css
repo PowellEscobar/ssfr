@@ -3,9 +3,11 @@ body {
   max-width: 1000px;
   padding: 1em;
   font-family: Helvetica, Arial, sans-serif;
+  background: linear-gradient( #FFFFFF, #D0D0D0 );
+
 }
 
-body {
+ {
   background: linear-gradient( #FFFFFF, #D0D0D0 );
 
 
@@ -124,7 +126,33 @@ nav[role=navigation] {
 				border: 0;
 			}
 		}
+    header {
+      text-align: center;
+      color: rgb(65,93,120);}
 
-footer {
-      background-color: #D0D0D0 ;
+    .logo {
+    width
     }
+    @media screen and (min-width: 600px){
+      img.Family {
+        width: 600px}
+        body-width {600px}
+        svg.logo {
+          width: 30px}
+        }
+
+      }
+      @media screen and (min-width: 800px){
+  img.Family {
+    width: 500px;
+    float: left;
+    margin: 0 0.75em inherit 1.5em;}
+}
+
+      footer{
+  text-align: center;
+  color: rgb(102,75,55);
+}
+footer table{
+  color: rgb(65,93,120);
+  text-align: center;}
