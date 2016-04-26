@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: linear-gradient( #FFFFFF, #CCFFFF);
+  background: linear-gradient( #FFFFFF, #D0D0D0 );
 
 
 }
@@ -126,8 +126,5 @@ nav[role=navigation] {
 		}
 
 footer {
-      background-color: black;
+      background-color: #D0D0D0 ;
     }
-table {
-  color: white;
-}
