@@ -5,13 +5,17 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+  background: linear-gradient( #FFFFFF, #CCFFFF);
 
+
+}
 
 
 
 
 a.menu-link {
-  	    float: right;
+  	    float: left;
 		    display: block;
 		    padding: 1em;
 			  width: 125px;
