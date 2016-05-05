@@ -1,17 +1,32 @@
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
 
+<<<<<<< HEAD
 body {
   max-width: 1000px;
   padding: 1em;
   font-family: 'Bitter', Helvetica, Arial, sans-serif;
   background: linear-gradient( #FFFFFF, #D0D0D0 );
 
+=======
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+>>>>>>> origin/gh-pages
 }
 
- {
-  background: linear-gradient( #FFFFFF, #D0D0D0 );
+body {
 
+  padding: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  }
 
-}
 
 
 
@@ -152,13 +167,7 @@ nav[role=navigation] {
     }
 }
 
-      footer{
-  text-align: center;
-  color: rgb(102,75,55);
-}
-footer table{
-  color: rgb(65,93,120);
-  text-align: center;}
+
 
   h1 {
 text-align: center;
@@ -168,7 +177,7 @@ text-align: center;
 
 
 .hero-image {
-    height: 90vh;
+    height: 30vh;
     background-image: url(http://chipsrestaurants.com/wp-content/uploads/2015/07/family-eating.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,18 +196,180 @@ text-align: center;
     padding: 1em;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.2em;
     text-align: center;
 }
 
-/* All this does is add a 50% black background on top of the image */
 .hero-image:after {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(65,93,120,.80);
     top: 0;
     left: 0;
     display: block;
     content: "";
+}
+
+
+.menu-image {
+    
+    background-image: url(http://ballenvegas.com/wp-content/uploads/2014/11/shutterstock_159453998.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.menu-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(65,93,120,.80);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+
+
+.breakfast-image {
+
+    background-image: url(http://images.familycircle.mdpcdn.com/sites/familycircle.com/files/styles/facebook_og_image/public/story/Lemon-Ricotta-Pancakes-image.jpg?itok=YD18KMP8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.lunch-image {
+
+    background-image: url(http://www.lifeloveliz.com/wp-content/uploads/2015/07/Grilled-Pepperoni-Pizza-Sandwich.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.dinner-image {
+
+    background-image: url(https://themeathouseblog.files.wordpress.com/2011/09/pot_roast1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.dessert-image {
+
+    background-image: url(http://images.edge-generalmills.com/08ba5645-9dc6-4e44-99c1-710a5f1e1e86.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.menu-image__container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100%;
+}
+
+.menu-image__text {
+    z-index: 100;
+    padding: 1em;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.menu-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(65,93,120,.80);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+.breakfast-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102,75,55,.50);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+.lunch-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102,75,55,.50);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+.dinner-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102,75,55,.50);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+.dessert-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102,75,55,.50);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+
+.divide {
+  height: 10%;
+
+}
+
+
+
+main {
+  height: 100%
+}
+
+body {
+  text-align: center;
+  color:  rgb(65,93,120);
+}
+footer{
+text-align: left;
+color: rgb(102,75,55);
+}
+
+footer table{
+color: rgb(65,93,120);
+}
+
+.address{
+  float: left;
+    width: 35%;
+    margin-top: 2em;
+    padding-left: 7%;
+    margin-bottom: 1em;
+}
+.hours{
+  float: right;
+    width: 30%;
+    margin-top: 2em;
+    padding-left: 5%;
+    margin-bottom: 1em;
 }
