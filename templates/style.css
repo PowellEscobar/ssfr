@@ -2,7 +2,7 @@
 
 <<<<<<< HEAD
 h1, h2 {
-  font-family: 'Bitter', serif; 
+  font-family: 'Bitter', serif;
 }
 
 body {
@@ -169,6 +169,7 @@ nav[role=navigation] {
 
   h1 {
 text-align: center;
+font-family: 'bitter',serif;
 }
 
 
