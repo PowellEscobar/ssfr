@@ -168,7 +168,9 @@ text-align: center;
 font-family: 'bitter','Karma',serif;
 }
 
-
+h1.breakfeast-button {
+  color: white
+}
 
 
   h2 {
