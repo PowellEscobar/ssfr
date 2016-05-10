@@ -2,23 +2,14 @@
 
 <<<<<<< HEAD
 h1, h2 {
-  font-family: 'Roboto', serif; 
+  font-family: 'Bitter', serif;
 }
 
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: 'Bitter', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   background: linear-gradient( #FFFFFF, #D0D0D0 );
-
-
-
-body {
-
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
-  }
-
 
 
 
