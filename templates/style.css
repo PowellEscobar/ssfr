@@ -1,9 +1,4 @@
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: block;
-  height: 0;
-  overflow: hidden;
-}
+
 
 <<<<<<< HEAD
 body {
@@ -12,14 +7,7 @@ body {
   font-family: 'Bitter', Helvetica, Arial, sans-serif;
   background: linear-gradient( #FFFFFF, #D0D0D0 );
 
-=======
-.clearfix:after {
-    clear: both;
-}
-.clearfix {
-    zoom: 1; /* IE < 8 */
->>>>>>> origin/gh-pages
-}
+
 
 body {
 
@@ -31,25 +19,29 @@ body {
 
 
 
+  HTML  CSS  JS  Result
+Edit on
 a.menu-link {
-  	    float: left;
-		    display: block;
-		    padding: 1em;
-			  width: 125px;
-		}
+        float: right;
+            display: block;
+            padding: 1em;
+              width: 125px;
+        }
+
+/* Adds Code for Pure CSS Hamburger Button */
 
 .menu-link__hamburger {
-	margin: 0 auto;
-	text-align: center;
-	width: 33px;
-	float: left;
-	transform: translate(0,0);
-	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    margin: 0 auto;
+    text-align: center;
+    width: 33px;
+    float: left;
+    transform: translate(0,0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 .menu-link__label {
-	float: left;
-	padding-left: .75em;
+    float: left;
+    padding-left: .75em;
 }
 
 a.menu-link span {
@@ -76,12 +68,12 @@ a.menu-link span:nth-child(3) {
 }
 
 .menu-link.active .menu-link__hamburger {
-	transform: translate(10px, 0);
+    transform: translate(10px, 0);
 }
 
 .menu-link.active span {
   opacity: 1;
-	background: black;
+    background: black;
   transform: rotate(45deg) translate(-2px, -1px);
 }
 
@@ -96,51 +88,53 @@ a.menu-link span:nth-child(3) {
 }
 
 nav[role=navigation] {
-			clear: both;
-			-webkit-transition: all 0.3s ease-out;
-			-moz-transition: all 0.3s ease-out;
-			-ms-transition: all 0.3s ease-out;
-			-o-transition: all 0.3s ease-out;
-			transition: all 0.3s ease-out;
-		}
-		.js nav[role=navigation] {
-			overflow: hidden;
-			max-height: 0;
-		}
-		nav[role=navigation].active {
-			max-height: 15em;
-		}
-		nav[role=navigation] ul {
-			margin: 0;
-			padding: 0;
-			border-top: 1px solid #808080;
-		}
-		nav[role=navigation] li a {
-			display: block;
-			padding: 0.8em;
-			border-bottom: 1px solid #808080;
-		}
+            clear: both;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        .js nav[role=navigation] {
+            overflow: hidden;
+            max-height: 0;
+        }
+        nav[role=navigation].active {
+            max-height: 15em;
+        }
+        nav[role=navigation] ul {
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid #808080;
+        }
+        nav[role=navigation] li a {
+            display: block;
+            padding: 0.8em;
+            border-bottom: 1px solid #808080;
+        }
 
-		@media screen and (min-width:800px) {
-			a.menu-link {
-			   display: none;
-			}
-			.js nav[role=navigation] {
-				max-height: none;
-			}
-			nav[role=navigation] ul {
-				margin: 0 0 0 -0.25em;
-				border: 0;
-			}
+        @media screen and (min-width:800px) {
+            a.menu-link {
+               display: none;
+            }
+            .js nav[role=navigation] {
+                max-height: none;
+            }
+            nav[role=navigation] ul {
+                margin: 0 0 0 -0.25em;
+                border: 0;
+            }
 
-			nav[role=navigation]  li {
-				display: inline-block;
-				margin: 0 0.25em;
-			}
-			nav[role=navigation] li a {
-				border: 0;
-			}
-		}
+            nav[role=navigation]  li {
+                display: inline-block;
+                margin: 0 0.25em;
+            }
+            nav[role=navigation] li a {
+                border: 0;
+            }
+        }
+
+
     header {
       text-align: center;
       color: rgb(65,93,120);}
@@ -213,7 +207,7 @@ text-align: center;
 
 
 .menu-image {
-    
+
     background-image: url(http://ballenvegas.com/wp-content/uploads/2014/11/shutterstock_159453998.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,14 +267,7 @@ text-align: center;
     height: 100%;
 }
 
-.menu-image__text {
-    z-index: 100;
-    padding: 1em;
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
+
 
 .menu-image:after {
     position: absolute;
@@ -311,6 +298,7 @@ text-align: center;
     left: 0;
     display: block;
     content: "";
+
 }
 .dinner-image:after {
     position: absolute;
@@ -332,13 +320,9 @@ text-align: center;
     left: 0;
     display: block;
     content: "";
+      border-bottom: 20px solid rgb(102,75,55);
 }
 
-
-.divide {
-  height: 10%;
-
-}
 
 
 
@@ -350,26 +334,169 @@ body {
   text-align: center;
   color:  rgb(65,93,120);
 }
-footer{
-text-align: left;
-color: rgb(102,75,55);
+
+
+
+ul {
+  list-style-type: none;
+}
+footer {
+    background-color: rgb(65,93,120);
+
+    color: black;
+    padding: 1em;
+    padding-top: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+    border-bottom: 20px solid rgb(102,75,55);
 }
 
-footer table{
-color: rgb(65,93,120);
+@media screen and (min-width: 500px){
+  img.Logo {
+     width: 200px;
+     border-top: 1em;}
+
+     .menu-image__text {
+         z-index: 100;
+         padding: .5em;
+         color: white;
+         font-family: Helvetica, Arial, sans-serif;
+         font-size: 1em;
+         text-align: center;
+     }
+     .About{
+       max-width: 350px;
+       text-align: left;
+       }
+     .Cattering{
+     max-width: 350px;
+     text-align: left;
+     }
+     img.beer {
+       width: 300px;
+       margin: auto;
+       margin-top: 1em;
+       margin-left: 5em;}
 }
 
-.address{
-  float: left;
-    width: 35%;
-    margin-top: 2em;
-    padding-left: 7%;
-    margin-bottom: 1em;
+@media screen and (min-width: 600px){
+  .About{
+    max-width: 450px;
+    text-align: left;
+    }
+  .Cattering{
+  max-width: 450px;
+  text-align: left;
+  }
+  img.beer {
+      width: 400px;
+      margin: 3em;
+      margin-top: 1em;
+      margin-left: 5em;
+         float: left;
+    }
+
 }
-.hours{
-  float: right;
-    width: 30%;
-    margin-top: 2em;
-    padding-left: 5%;
-    margin-bottom: 1em;
+
+
+@media screen and (min-width: 850px){
+  img.Logo {
+     width: 300px;
+     border-top: 1em;
+     .menu-image__text {
+         z-index: 100;
+         padding: 1em;
+         color: white;
+         font-family: Helvetica, Arial, sans-serif;
+         font-size: 1em;
+         text-align: center;
+     }
+     img.beer {
+         width: 600px;
+         margin: 3em;
+         float: left;
+         margin-top: 1em;
+         margin-left: 5em
+       }
+  }
+  .About{
+    max-width: 650px;
+    text-align: left;
+    }
+  .Cattering{
+  max-width: 650px;
+  text-align: left;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .address{
+    float: left;
+    width: 33.3%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+  img.Logo {
+     width: 450px;
+     border-top: 1em;
+  }
+  .menu-image__text {
+      z-index: 100;
+      padding: 1.5em;
+      color: white;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1em;
+      text-align: center;
+  }
+
+}
+footer h2 {
+  color: white;
+}
+
+dt {
+  color: white;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  color: #FFF;
+}
+.About{
+
+  margin: auto;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  ;
+  }
+.Cattering{
+
+  margin: auto;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+  ;
+}
+
+main ul {
+  text-align: left;
+  margin: auto;
+  margin-bottom: 50px
 }
