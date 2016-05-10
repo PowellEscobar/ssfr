@@ -1,2 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<!DOCTYPE html>
+<html lang="en-us">
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="javascript.js"></script>
+
+
+
+<h1> Menu </h1>
+  <a href="#menu" class="menu-link">
+      <div class="menu-link__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class="menu-link__label">Menu</div>
+  </a>
+
+  <nav id="menu" role="navigation">
+    <ul>
+      <li> <a href="index.html">Home</a></li>
+      <li> <a href="menu.html">Menu</a> </li>
+      <li> <a href="about.html">About</a> </li>
+    </ul>
+  </nav>
+
+<h1> Main Logo </h1>
+
+  <div>
+    <img src="Logo/summitst.svg" class="Logo"alt="Main Logo" title="header logo"/>
+
+  </div>
+
+
+<h1> Banners </h1>
+
+  <section class="hero-image">
+     <div class="hero-image__container">
+         <div class="hero-image__text">
+             <h1>About Us</h1>
+             <p>Learn More About our History.</p>
+         </div>
+     </div>
+ </section>
+
+
+<h1> Footer </h1>
+
+  <footer class="clearfix">
+
+    <div class="address">
+
+  <dt> <h2> Address </h2></dt>
+    <dd>671 Summit St.</dd>
+    <dd>Kent, OH 44240</dd>
+  <dd>(330) 672-3031</dd>
+
+  </div>
+
+
+
+    <div class="hours">
+
+  <dt> <h2> Hours </h2> </dt>
+  <dd>Sunday: 8am - 10pm</dd>
+  <dd>Monday-Saturday: 11am - 10pm</dd>
+  <dd>Sunday Breakfast: 8 am - Noon</td>
+  <dd>Breakfast take out only  7 am to 11 am</dd>
+
+  </div>
+
+  </footer>
