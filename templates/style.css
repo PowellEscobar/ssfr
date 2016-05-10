@@ -173,6 +173,10 @@ font-family: 'bitter','Karma',serif;
 }
 
 
+  h2 {
+    font-family: 'bitter','Karma',serif;
+    font-weight: normal;
+  }
 
 
 .hero-image {
