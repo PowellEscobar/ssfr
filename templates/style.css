@@ -1,5 +1,7 @@
 
-
+h1.menubutton {
+  color: white
+}
 <<<<<<< HEAD
 body {
   max-width: 1000px;
@@ -169,9 +171,7 @@ font-family: 'bitter','Karma',serif;
 }
 
 
-h1.menubutton {
-  color: white
-}
+
 
   h2 {
     font-family: 'bitter','Karma',serif;
