@@ -169,6 +169,10 @@ font-family: 'bitter','Karma',serif;
 }
 
 
+h1.menubutton {
+  color: white
+}
+
   h2 {
     font-family: 'bitter','Karma',serif;
     font-weight: normal;
